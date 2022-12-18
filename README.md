@@ -74,3 +74,41 @@
      ```
      nodemon server.js
      ```
+
+   - loadtest
+
+     ```
+     npm install -g loadtest
+     ```
+
+     - REMEMBER NEED TO QUOTE THE LINK
+
+     ```
+      cmyeung@Tims-MacBook-Air ~ % loadtest -n 1000 -c 200 --rps 100 'http://localhost:3000/?number=20'
+      [Wed Nov 30 2022 11:24:38 GMT+0800 (Hong Kong Standard Time)] INFO Requests: 0 (0%), requests per second: 0, mean latency: 0 ms
+      [Wed Nov 30 2022 11:24:43 GMT+0800 (Hong Kong Standard Time)] INFO Requests: 599 (60%), requests per second: 120, mean latency: 6.5 ms
+      [Wed Nov 30 2022 11:24:47 GMT+0800 (Hong Kong Standard Time)] INFO
+      [Wed Nov 30 2022 11:24:47 GMT+0800 (Hong Kong Standard Time)] INFO Target URL:          http://localhost:3000/?number=20
+      [Wed Nov 30 2022 11:24:47 GMT+0800 (Hong Kong Standard Time)] INFO Max requests:        1000
+      [Wed Nov 30 2022 11:24:47 GMT+0800 (Hong Kong Standard Time)] INFO Concurrency level:   200
+      [Wed Nov 30 2022 11:24:47 GMT+0800 (Hong Kong Standard Time)] INFO Agent:               none
+      [Wed Nov 30 2022 11:24:47 GMT+0800 (Hong Kong Standard Time)] INFO Requests per second: 100
+      [Wed Nov 30 2022 11:24:47 GMT+0800 (Hong Kong Standard Time)] INFO
+      [Wed Nov 30 2022 11:24:47 GMT+0800 (Hong Kong Standard Time)] INFO Completed requests:  1000
+      [Wed Nov 30 2022 11:24:47 GMT+0800 (Hong Kong Standard Time)] INFO Total errors:        0
+      [Wed Nov 30 2022 11:24:47 GMT+0800 (Hong Kong Standard Time)] INFO Total time:          9.008881208 s
+      [Wed Nov 30 2022 11:24:47 GMT+0800 (Hong Kong Standard Time)] INFO Requests per second: 111
+      [Wed Nov 30 2022 11:24:47 GMT+0800 (Hong Kong Standard Time)] INFO Mean latency:        5.8 ms
+      [Wed Nov 30 2022 11:24:47 GMT+0800 (Hong Kong Standard Time)] INFO
+      [Wed Nov 30 2022 11:24:47 GMT+0800 (Hong Kong Standard Time)] INFO Percentage of the requests served within a certain time
+      [Wed Nov 30 2022 11:24:47 GMT+0800 (Hong Kong Standard Time)] INFO   50%      4 ms
+      [Wed Nov 30 2022 11:24:47 GMT+0800 (Hong Kong Standard Time)] INFO   90%      11 ms
+      [Wed Nov 30 2022 11:24:47 GMT+0800 (Hong Kong Standard Time)] INFO   95%      15 ms
+      [Wed Nov 30 2022 11:24:47 GMT+0800 (Hong Kong Standard Time)] INFO   99%      25 ms
+      [Wed Nov 30 2022 11:24:47 GMT+0800 (Hong Kong Standard Time)] INFO  100%      37 ms (longest request)
+     ```
+
+3. Section: blockchain
+
+
+
